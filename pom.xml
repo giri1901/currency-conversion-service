@@ -38,6 +38,18 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>	<!-- Enables to add a unique Id to each request-->
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>	<!-- Enables the tracing capability with zipkin-->
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit</artifactId>	<!-- Enables the tracing capability with zipkin-->
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
