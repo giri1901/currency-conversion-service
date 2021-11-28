@@ -44,12 +44,12 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-sleuth-zipkin</artifactId>	<!-- Enables the tracing capability with zipkin-->
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>	<!-- Enables the distributed  tracing capability with zipkin-->
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.amqp</groupId>
-			<artifactId>spring-rabbit</artifactId>	<!-- Enables the tracing capability with zipkin-->
-		</dependency>
+			<artifactId>spring-rabbit</artifactId>	&lt;!&ndash; Enables the distributed async tracing capability with zipkin&ndash;&gt;
+		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
